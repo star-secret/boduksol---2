@@ -58,6 +58,12 @@ key = 0
 
 #count_confirm = 0
 
+
+
+
+
+
+
 for k in range(1,50):
     print(k,"번째")
     tempsensor_list_xy = copy.deepcopy(sensor_list_xy)
