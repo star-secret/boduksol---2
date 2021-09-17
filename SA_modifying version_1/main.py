@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 
 
 
+
 sensorxy = []
 T_init = 60
 T_final = 1
