@@ -3,7 +3,7 @@ import pygame
 import time, random
 from pygame.locals import *
 
-#함수화..
+#사용설명은 31,32,60번째줄 참고
 
 polygon_list = []
 polygon_list.append((10,10))
