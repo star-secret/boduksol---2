@@ -1,5 +1,4 @@
 import convert_png as cp
-import split_area as sa
 import make_sensor as ma
 import save_png as sp
 import split_coordinate as sc

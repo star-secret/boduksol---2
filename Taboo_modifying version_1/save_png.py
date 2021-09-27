@@ -75,7 +75,8 @@ class start:
         #############################################이 위에는 이제 while문 위에 적히는 내용들 들어감
         self.runGame(screen)            #본격적인 파이게임작동..(while문에 들어가야할 내용들)
 
-yeahgood = start(polygon_list,sensor_list,sensor_list2,radius,80)  #객체 생성
+
+# yeahgood = start(polygon_list,sensor_list,sensor_list2,radius,80)  #객체 생성
 
 
-yeahgood.its_main()         #이거 호출하면이제 그냥 리스트대로 화면 캡처하고 저장해줌
+# yeahgood.its_main()         #이거 호출하면이제 그냥 리스트대로 화면 캡처하고 저장해줌
