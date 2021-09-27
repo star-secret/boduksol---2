@@ -26,9 +26,10 @@ from pygame.locals import *
 
 # print(sensor_list)
 
-radius= 30
+#radius= 30
+
 class start:
-    #관심영역리스트, 반지름1인 센서들의 중심좌표 리스트, 반지름2인 센서들의 중심좌표 리스트, 반지름1, 반지름2
+    
     #만약에 반지름의 크기를 다르게하고 싶지 않으면 반지름 1이나 반지름2에다가 0을 집어넣으면 된다.
     def __init__(self,input_list,input_sensor1,input_sensor2,input_radius1,input_radius2):      #input_list는 이제 관심영역 리스트 입력받는거, input_sensor는 센서 중심좌표를 리스트로 받는것
                                                                     #input_radius는 센서의 반지름을 입력받는거
