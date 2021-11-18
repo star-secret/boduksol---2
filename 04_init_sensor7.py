@@ -3,17 +3,17 @@ from itertools import combinations_with_replacement
 
 
 class init_sensor:
-    def __init__(self, cost, price_list, area_list, number_of_sensor):
+    def __init__(self, cost, price_list, area_list ):
         # 비용상한선,  센서의 가격 리스트, 센서마다 탐지하는 영역의 넓이 리스트, 배치에 사용할 총 센서의 개수를 입력받아야 함
         self.cost = cost
         
         self.price_list = price_list
         self.area_list = area_list
-        self.number_of_sensor = number_of_sensor
         self.sensor_make = set(combinations_with_replacement(sensor_price, num))
         self.sensor = list(self.sensor_make)
         self.area = []
         self.price =[]
+        self.number_of_sensor = len(self.price_list)
         self.index = 0 #최종 선택된 센서 조합의 인덱스를 저장할 변수
         
         self.set_init()
@@ -68,5 +68,5 @@ sensor_area = [ 600, 2000, 2400, 2900, 3987]    #센서의 가격에 대응하�
 init_area = 12345
 num = 7
 
-yeahgood = init_sensor(cost,sensor_price,sensor_area,num)
+yeahgood = init_sensor(cost,sensor_price,sensor_area)
 
